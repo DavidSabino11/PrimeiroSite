@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.noticia1 {
+    background-color: #AFC7DB;
+  }
+  
+  .noticia2 {
+    background-color: #647B8F;
+  }
+  
+  .noticia3 {
+    background-color: #AFC7DB;
+  }
+  
+  .noticia4 {
+    background-color: #647B8F;
+  }
+  
+  .noticia5 {
+    background-color: #AFC7DB;
+  }
+  
+  .noticia6 {
+    background-color: #647B8F;
+  }
+
+  .layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .layer1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .layer h1 {
+    width: 50%;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 20px;
+    padding: 20px 0px;
+    font-size: 35px;
+  }
+
+  .layer1 h1 {
+    width: 50%;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 20px;
+    padding: 20px 0px;
+    font-size: 35px;
+  }
+    
+    
+  .layer h2 {
+    width: 60%;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 22px 0px;
+    font-size: 18px;
+  }
+
+  .layer1 h2 {
+    width: 60%;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 22px 0px;
+    font-size: 18px;
+  }
+
+  #descricao{
+    width: 50%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 22px 0px;
+    font-size: 20px;
+  }
+
+  .layer a {
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #b3b3ff;
+    padding: 16px 32px;
+    text-decoration: none;
+  }
+  
+  .layer a:hover {
+    background-color: #5b327e;
+  }
+
+  .layer iframe {
+    padding: 16px;
+    width: 80%;
+    height: 90%;
+  }
+
+ .imgDestaque{
+  width: 40%;
+  height: 50%;
+}
+
+.imgSobre{
+  width: 30%;
+  height: 60%;
+  border-radius: 20px;
+}
+
+footer{
+  position: relative;
+  color: #fff;
+  background-color: #b3b3ff;
+  padding: 25px 25px;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  }
+
+  @media screen and (max-width: 720px) {
+    .layer h1 {
+      width: 100%;
+      font-size: 1.5em;
+    }
+  }
+
+  .btn-voltar{
+    z-index: 10;
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    width: 130px;
+    height: 50;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .btn-voltar-link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  .icones img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding-left: 20px;
+  }
